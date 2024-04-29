@@ -1,0 +1,34 @@
+{
+    "name": "storybook-dark-flash",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@chromatic-com/storybook": "1.3.3",
+        "@storybook/addon-essentials": "^8.0.9",
+        "@storybook/addon-interactions": "^8.0.9",
+        "@storybook/addon-links": "^8.0.9",
+        "@storybook/blocks": "^8.0.9",
+        "@storybook/test": "^8.0.9",
+        "@storybook/vue3": "^8.0.9",
+        "@storybook/vue3-vite": "^8.0.9",
+        "@types/node": "^20.12.7",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "@vue/tsconfig": "^0.5.1",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "storybook": "^8.0.9",
+        "vite": "^5.2.10"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "vue": "^3.4.25"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "run-p type-check \"build-only {@}\" --",
+        "preview": "vite preview",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build"
+    }
+}

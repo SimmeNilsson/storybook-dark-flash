@@ -1,0 +1,4 @@
+html,
+body {
+    background-color: black; /* Trying to avoid white flash when switching between docs and preview */
+}
